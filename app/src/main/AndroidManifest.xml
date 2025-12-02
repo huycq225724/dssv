@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dssv">
+        <activity android:name=".AddStudentActivity" />
+        <activity android:name=".StudentDetailActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -22,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
